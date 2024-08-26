@@ -40,17 +40,18 @@ const login = (user) => {
 
 const logout = () => {
     localStorage.removeItem("user");
+    window.location.replace("/");
 };
 
 const getCurrentUser = () => {
     return JSON.parse(localStorage.getItem("user"));
 };
 
-const authService = {
+const AuthService = {
     signup,
     login,
     logout,
     getCurrentUser
 };
 
-export default authService;
+export default AuthService;
