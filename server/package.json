@@ -1,0 +1,33 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll --detectOpenHandles --verbose",
+		"start": "nodemon server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.7.4",
+		"bcrypt": "^5.1.0",
+		"body-parser": "^1.20.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-validator": "^6.14.2",
+		"jsonwebtoken": "^9.0.0",
+		"mongoose": "^6.8.2",
+		"nodemon": "^2.0.20",
+		"yup": "^0.32.11"
+	},
+	"devDependencies": {
+		"jest": "^29.3.1",
+		"supertest": "^6.3.3"
+	},
+	"jest": {
+		"testEnvironment": "node"
+	}
+}
