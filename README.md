@@ -1,4 +1,4 @@
-<!-- INTRO SECTION -->
+
 <br />
 <p align="center">
   <a href="https://github.com/Namanshah3003/Vexa">
